@@ -1,0 +1,32 @@
+Merge Sort:
+Başlangıç durumu: [16, 21, 11, 8, 12, 22]
+
+Dizi ikiye bölünür:
+Sol: [16, 21, 11]
+Sağ: [8, 12, 22]
+
+Sol taraf kendi içinde bölünür:
+
+[16, 21, 11] → [16] ve [21, 11]
+
+[21, 11] → [21] ve [11]
+
+[21] ve [11] birleştirilir → [11, 21]
+
+[16] ile [11, 21] birleştirilir → [11, 16, 21]
+
+Sağ taraf kendi içinde bölünür:
+
+[8, 12, 22] → [8] ve [12, 22]
+
+[12, 22] → [12] ve [22]
+
+[12] ve [22] birleştirilir → [12, 22]
+
+[8] ile [12, 22] birleştirilir → [8, 12, 22]
+
+İki taraf birleştirilir:
+[11, 16, 21] ve [8, 12, 22] → [8, 11, 12, 16, 21, 22]
+
+Big-O Notation:
+Worst Case O(n log n), Average Case O(n log n), Best Case O(n log n)
