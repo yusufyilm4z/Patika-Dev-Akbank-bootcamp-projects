@@ -1,0 +1,32 @@
+Insertion Sort:
+Başlangıç durumu: [22, 27, 16, 2, 18, 6]
+
+I. adım – 27, 22 ile karşılaştırılır, yerinde kalır:
+[22, 27, 16, 2, 18, 6]
+II. adım – 16, 27 ve 22 ile karşılaştırılır doğru yere yerleştirilir
+[16, 22, 27, 2, 18, 6]
+III. adım – 2, tüm elemanlarla karşılaştırılır en başa yerleştirilir
+[2, 16, 22, 27, 18, 6]
+IV. adım – 18, 27, 22 ve 16 ile karşılaştırılır araya yerleştirilir
+[2, 16, 18, 22, 27, 6]
+V. adım – 6, tüm uygun elemanlarla karşılaştırılır ve yerine yerleştirilir
+[2, 6, 16, 18, 22, 27]
+
+Big-O Notation:
+Worst Case O(n²), Average Case O(n²), Best Case O(n)
+
+18 sayısı (dizi sıralandıktan sonra) [2, 6, 16, 18, 22, 27] ortada yer alır - Average Case
+
+[7,3,5,8,2,9,4,15,6] → Selection Sort İlk 4 Adımı
+Selection Sort algoritması, her turda en küçük elemanı bulup başa alır.
+
+Başlangıç: [7,3,5,8,2,9,4,15,6]
+I. adım: (En küçük: 2)
+2 ile 7 yer değiştirir → [2,3,5,8,7,9,4,15,6]
+II. adım: (En küçük: 3)
+Zaten yerinde → [2,3,5,8,7,9,4,15,6]
+III. adım: (En küçük: 4)
+4 ile 5 yer değiştirir → [2,3,4,8,7,9,5,15,6]
+IV. adım: (En küçük: 5)
+5 ile 8 yer değiştirir → [2,3,4,5,7,9,8,15,6]
+
